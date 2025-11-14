@@ -68,7 +68,7 @@ test('Negative: create article with empty field', async () => {
   expect(errorM).toBe("title can't be blank");
 });
 
-test.only('Negative: update profile with large invalid url', async () => {
+test('Negative: update profile with large invalid url', async () => {
   const negProfile = new filterSettings(page);
   await negProfile.userSettings(config.urls.settings,config.invalidURL,config.settings.username(),config.settings.bio,config.settings.email(),config.settings.newPass());
   expect(page.url).not.toContain('/profile/');
