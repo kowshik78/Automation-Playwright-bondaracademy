@@ -1,4 +1,3 @@
-// utils/apiHelper.ts
 import { APIRequestContext, request } from '@playwright/test';
 import config from './testData';
 
