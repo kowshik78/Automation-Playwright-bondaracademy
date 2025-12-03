@@ -1,0 +1,52 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e4]:
+    - link "conduit" [ref=e5] [cursor=pointer]:
+      - /url: /
+  - generic [ref=e10]:
+    - list [ref=e12]:
+      - listitem [ref=e13]: title must be unique
+    - group [ref=e15]:
+      - group [ref=e16]:
+        - textbox "Article Title" [ref=e17]: Title-642
+      - group [ref=e18]:
+        - textbox "What's this article about?" [ref=e19]: About-10
+      - group [ref=e20]:
+        - textbox "Write your article (in markdown)" [ref=e21]: Description-2606
+      - group [ref=e22]:
+        - textbox "Enter tags" [ref=e23]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e26] [cursor=pointer]: 
+            - text: APIQA-710
+          - generic [ref=e27]:
+            - generic [ref=e28] [cursor=pointer]: 
+            - text: APIPlaywright-629
+          - generic [ref=e29]:
+            - generic [ref=e30] [cursor=pointer]: 
+            - text: APIAutomation-906
+          - generic [ref=e31]:
+            - generic [ref=e32] [cursor=pointer]: 
+            - text: QA-507
+          - generic [ref=e33]:
+            - generic [ref=e34] [cursor=pointer]: 
+            - text: Playwright-960
+          - generic [ref=e35]:
+            - generic [ref=e36] [cursor=pointer]: 
+            - text: Automation-207
+      - button "Publish Article" [ref=e37] [cursor=pointer]
+  - contentinfo [ref=e38]:
+    - generic [ref=e39]:
+      - link "conduit" [ref=e40] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e41]:
+        - text: © 2025. An interactive learning project from
+        - link "RealWorld OSS Project" [ref=e42] [cursor=pointer]:
+          - /url: https://github.com/gothinkster/realworld
+        - text: . Code licensed under MIT. Hosted by
+        - link "Bondar Academy" [ref=e43] [cursor=pointer]:
+          - /url: https://www.bondaracademy.com
+        - text: .
+```
