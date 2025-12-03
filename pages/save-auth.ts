@@ -2,7 +2,7 @@ import config from "../utils/testData.js";
 import { BrowserType } from "@playwright/test";
 
 export const loginAndSaveAuth = async (browserType: BrowserType) => {
-        const browser = await browserType.launch({ headless: false });
+        const browser = await browserType.launch();
         const context = await browser.newContext();
         const page = await context.newPage();
 
